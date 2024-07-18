@@ -13,7 +13,7 @@ interface AuthProps {
   initialized: boolean;
 }
 
-const TOKEN_KEY = "my-token";
+const TOKEN_KEY = "my-stream-token";
 export const API_URL = process.env.EXPO_PUBLIC_SERVER_URL;
 const AuthContext = createContext<Partial<AuthProps>>({});
 
@@ -56,6 +56,7 @@ export const AuthProvider = ({ children }: any) => {
   const login = async (email: string, password: string) => {
     try {
       // fetch POST request to /login
+
       const result = await fetch(`${API_URL}/login`, {
         method: "POST",
         headers: {

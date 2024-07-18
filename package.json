@@ -23,6 +23,7 @@
     "@stream-io/video-react-native-sdk": "^0.9.2",
     "expo": "~51.0.21",
     "expo-clipboard": "~6.0.3",
+    "expo-dev-client": "~4.0.20",
     "expo-file-system": "~17.0.1",
     "expo-font": "~12.0.9",
     "expo-image-manipulator": "~12.0.5",
@@ -49,8 +50,7 @@
     "react-native-toast-message": "^2.2.0",
     "react-native-web": "~0.19.10",
     "stream-chat-expo": "^5.33.1",
-    "stream-chat-react-native": "^5.33.1",
-    "expo-dev-client": "~4.0.20"
+    "stream-chat-react-native": "^5.33.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
